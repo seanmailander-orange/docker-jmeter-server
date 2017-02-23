@@ -30,3 +30,8 @@ This is a shell script that make use of [Docker Machine](https://github.com/dock
 - Amazon
 - DigitalOcean
 
+TODO: check if specific plugins are needed
+jpgc-casutg, jpgc-dummy, jpgc-ffw, jpgc-fifo, jpgc-functions, jpgc-json, jpgc-perfmon, jpgc-prmctl, jpgc-tst.
+
+> docker build . --tag DC-WRK-M22.local:5000/hdqc/jmeter-slave
+> docker push HDC-WRK-M22.local:5000/hdqc/jmeter-slave
